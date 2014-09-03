@@ -1,3 +1,23 @@
+/*
+matriz de leds 2288AB-5
+matriz pin nro    linea    columna    arduino uno pin
+1                  5          -              13
+2                  7          -              12
+3                  -          2              11
+4                  -          3              10
+5                  8          -              16(analogico pin 2)
+6                  -          5              17(analogico pin 3)
+7                  6          -              18(analogico pin 4)
+8                  3          -              19(analogico pin 5)
+9                  1          -              2
+10                  -          4             3
+11                  -          6             4
+12                  4          -             5
+13                  -          1             6
+14                  2          -             7
+15                  -          7             8
+16                  -          8             9
+*/
 const int rownum[8] = {
 2,7,19,5,13,18,12,16 };
 
@@ -176,33 +196,6 @@ void loop() {
   } else if (timeCount < 830) {
   } else if (timeCount < 1000) {
     drawScreen(o);
-  } else if (timeCount < 1030) {
-  } else if (timeCount < 1200) {
-    drawScreen(g);
-  } else if (timeCount < 1230) {
-  } else if (timeCount < 1400) {
-    drawScreen(a);
-  } else if (timeCount < 1430) {
-  } else if (timeCount < 1600) {
-    drawScreen(b);
-  } else if (timeCount < 1630) {
-  } else if (timeCount < 1800) {
-    drawScreen(o);
-  } else if (timeCount < 1830) {
-  } else if (timeCount < 2000) {
-    drawScreen(t);
-  } else if (timeCount < 2030) {
-  } else if (timeCount < 2200) {
-    drawScreen(I);
-  } else if (timeCount < 2230) {
-  } else if (timeCount < 2400) {
-    drawScreen(t);
-  } else if (timeCount < 2430) {
-  } else if (timeCount < 2600) {
-    drawScreen(a);
-  } else if (timeCount < 2630) {
-  } else if (timeCount < 2800) {
-    drawScreen(s);
   } else if (timeCount < 2830) {
   } else if (timeCount < 3000) {
     drawScreen(cor2);
